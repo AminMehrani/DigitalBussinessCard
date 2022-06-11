@@ -13,14 +13,14 @@ export default function Main() {
                 <h3> طراح وبسایت</h3>
 
                 <div className="buttons">
-                    <a className="buttonhref" href="https://api.whatsapp.com/send?phone=989394654973" id="whatsapp">واتس‌اپ</a>
-                    <a className="buttonhref" href="tel:+989394654973" id="call">تلفن تماس</a>
+                    <a className="buttonhref" href="https://api.whatsapp.com/send?phone=989394654973" id="whatsapp">Whatsapp</a>
+                    <a className="buttonhref" href="tel:+989394654973" id="call">Call</a>
                 </div>
 
                 <div className="services">
                     <h3 className="text--title">درباره‌‌ی من</h3>
                     <p>طراحی و توسعه‌ی وبسایت های شخصی، فروشگاهی و شرکتی
-                     مسلط به بروزترین زبان های برنامه نویسی تحت وب
+                     مسلط به بروزترین زبان های برنامه نویسی تحت وب <br></br>
                     <div>HTML / JavaScripts / CSS / SCSS  JQuerry / React</div>
                     </p>
                 </div>

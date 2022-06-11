@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Vazirmatn:wght@100;200;300;400&display=swap');
+
 
 
 
 * {
     margin: 0 ;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 body {
@@ -71,8 +71,14 @@ body {
     background-color: #25D366;
 }
 a{
-  font-family: 'Poppins' !important;
+  font-family: 'Roboto' !important;
 }
+
+.buttons> a:hover {
+  transform: scale(1.05);
+
+}
+
 a.buttonhref {
     display: flex;
     vertical-align: middle;
@@ -220,4 +226,9 @@ a.buttonhref {
   .card:hover:before, .card:hover:after {
     animation: none;
     opacity: 0;
+  }
+
+  .social> a:hover {
+    transform: scale(1.1);
+  
   }
