@@ -5,7 +5,7 @@ export default function Main() {
     return (
         <div className="main--section">
             <div class="card">
-            <div className="top"><img alt="profile--photo" id="photo" src={myimage}/></div>
+            <div className="top"><img alt="profile" id="photo" src={myimage}/></div>
 
             <div className="middle">
                 <h2 className="text--title">امین مهرانی</h2>
