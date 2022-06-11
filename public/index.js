@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from "./components/Navbar"
 import Main from "./components/Main"
-import Joke from "./Joke"
+import Joke from "./components/Joke"
 
 function App() {
     return (
